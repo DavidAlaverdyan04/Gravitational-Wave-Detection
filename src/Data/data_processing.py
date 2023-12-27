@@ -28,6 +28,7 @@ def id2path(idx, is_train=True):
     return path
 
 
+
 def increase_dimension(idx, is_train, transform=CQT1992v2(sr=2048, hop_length=64, fmin=20, fmax=500)):
     """Increase the dimensionality of a waveform and convert it to an image representation using CWT.
 

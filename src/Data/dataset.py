@@ -3,7 +3,8 @@ from random import shuffle
 import tensorflow as tf
 
 class Dataset(tf.keras.utils.Sequence):
-    """Custom dataset class to handle data batching for training or inference.
+    
+	"""Custom dataset class to handle data batching for training or inference.
 
     Attributes:
     data (list or numpy.ndarray): Input data.
@@ -11,7 +12,8 @@ class Dataset(tf.keras.utils.Sequence):
     batch_size (int, optional): Size of each batch. Defaults to 256.
     shuffle (bool, optional): Flag indicating whether to shuffle data. Defaults to True.
     """
-    def __init__(self, data, y=None, batch_size=256, shuffle=True):
+
+	def __init__(self, data, y=None, batch_size=256, shuffle=True):
         self.data = data
         self.batch_size = batch_size
         self.shuffle = shuffle

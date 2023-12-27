@@ -1,8 +1,8 @@
 import tensorflow as tf
 
-
 def model():
-    """Creates and compiles a Convolutional Neural Network model.
+
+	"""Creates and compiles a Convolutional Neural Network model.
 
     Returns:
     tf.keras.Model: Compiled CNN model.
