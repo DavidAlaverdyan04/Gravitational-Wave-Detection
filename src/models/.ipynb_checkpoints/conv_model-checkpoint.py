@@ -1,6 +1,5 @@
 import tensorflow as tf
 
-
 def model():
     """Creates and compiles a Convolutional Neural Network model.
 

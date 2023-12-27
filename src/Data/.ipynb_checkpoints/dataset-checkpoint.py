@@ -1,7 +1,6 @@
 import math
 from random import shuffle
 import tensorflow as tf
-
 class Dataset(tf.keras.utils.Sequence):
     """Custom dataset class to handle data batching for training or inference.
 

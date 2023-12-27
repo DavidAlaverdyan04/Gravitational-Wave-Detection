@@ -2,9 +2,7 @@ import numpy as np
 from nnAudio.Spectrogram import CQT1992v2
 import torch
 from scipy import signal
-
 np.float = np.float64
-
 def id2path(idx, is_train=True):
     """Generate file path based on index and dataset type.
 
