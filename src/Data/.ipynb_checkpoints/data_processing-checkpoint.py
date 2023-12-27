@@ -2,9 +2,7 @@ import numpy as np
 from nnAudio.Spectrogram import CQT1992v2
 import torch
 from scipy import signal
-
 np.float = np.float64
-
 def id2path(idx, is_train=True):
     """Generate file path based on index and dataset type.
 
@@ -27,10 +25,7 @@ def id2path(idx, is_train=True):
 
     return path
 
-<<<<<<< HEAD
-=======
 
->>>>>>> parent of 8c21640 (Add visualization functions)
 def increase_dimension(idx, is_train, transform=CQT1992v2(sr=2048, hop_length=64, fmin=20, fmax=500)):
     """Increase the dimensionality of a waveform and convert it to an image representation using CWT.
 
