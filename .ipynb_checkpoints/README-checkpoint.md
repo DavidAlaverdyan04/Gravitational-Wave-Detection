@@ -15,14 +15,12 @@ The primary objectives of this project include:
 - Exploring algorithms for noise removal, data conditioning, and signal characterization.
 
 ### Data Details
-
 - The dataset contains simulated gravitational wave measurements.
 - Each data sample (npy file) contains 3 time series (1 for each detector), each spanning 2 seconds and sampled at 2,048 Hz.
 - The integrated signal-to-noise ratio (SNR) is classically the most informative measure of how detectable a signal is. A typical level of detectability is when this integrated SNR exceeds ~8.
 - Parameters determining the waveform's exact form (e.g., masses, sky location, distance, black hole spins, etc.) have been randomized according to astrophysically motivated prior distributions but are not provided as part of the competition data.
 
 ## Files Included
-
 - `train/`: Contains the training set files, with one npy file per observation. Labels are provided in the `training_labels.csv` file.
 - `test/`: Contains the test set files. The objective is to predict the probability that the observation contains a gravitational wave.
 
