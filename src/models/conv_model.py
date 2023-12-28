@@ -1,13 +1,7 @@
 import tensorflow as tf
 
-<<<<<<< HEAD
-def model():
-	"""Creates and compiles a Convolutional Neural Network model.
-=======
-
 def model():
     """Creates and compiles a Convolutional Neural Network model.
->>>>>>> parent of 8c21640 (Add visualization functions)
 
     Returns:
     tf.keras.Model: Compiled CNN model.
